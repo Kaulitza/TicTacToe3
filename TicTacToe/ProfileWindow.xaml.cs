@@ -32,7 +32,7 @@ namespace TicTacToe
             string line = "";
             try
             {
-                StreamReader read = new StreamReader(@"C:\Users\HP\Documents\Visual Studio 2015\Projects\TicTacToe\TicTacToe\highScorers.txt");     //object to read text file with the name auntheticateUsers.text
+                StreamReader read = new StreamReader(@"highScorers.txt");     //object to read text file with the name auntheticateUsers.text
                 String line2 = "";
                 while ((line = read.ReadLine()) != null)
                 {

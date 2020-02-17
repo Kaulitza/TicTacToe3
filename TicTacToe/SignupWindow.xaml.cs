@@ -31,7 +31,7 @@ namespace TicTacToe
             try
             {
 
-                using (StreamWriter w = File.AppendText(@"C:\Users\HP\Documents\Visual Studio 2015\Projects\TicTacToe\TicTacToe\users.txt"))
+                using (StreamWriter w = File.AppendText(@"users.txt"))
                 {
                     w.WriteLine(textBoxUserName.Text);
                     w.WriteLine(textBoxPassword.Password);

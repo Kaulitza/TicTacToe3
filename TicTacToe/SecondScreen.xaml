@@ -23,7 +23,7 @@
         <StackPanel Width="350" Margin="50" Background="#FF316BE0" >
             <Image Margin="10 50" Source="/Assets/tictactoe1.png" Width="100">
             </Image>
-            <Button Name="buttonTwoPlayer" Click="buttonTwoPlayer_Click" HorizontalAlignment="Center" FontSize="15" Margin="30" Content="Challenge your fellow" FontFamily="Viner Hand ITC" ></Button>
+            <Button Name="buttonTwoPlayer" Click="buttonTwoPlayer_Click" HorizontalAlignment="Center" FontSize="15" Margin="30" Content="Challenge your friend" FontFamily="Viner Hand ITC" ></Button>
             <Button Name="buttonSinglePlayer" Click="buttonSinglePlayer_Click" HorizontalAlignment="Center" FontSize="15" Margin="10 80" Content="Challenge your computer" FontFamily="Viner Hand ITC" ></Button>
             <Button Name="buttonHelp" Click="buttonHelp_Click" Margin="15 10" Width="100" Content="Help" FontFamily="Viner Hand ITC" ></Button>
 

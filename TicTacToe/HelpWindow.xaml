@@ -24,15 +24,13 @@
             <Image Margin="10 10" Source="/Assets/tictactoe1.png" Width="100">
             </Image>
             <TextBox Name="textBoxHelp1" HorizontalAlignment="Center" FontSize="15" Margin="30">Hey! Welcome, </TextBox>
-            <TextBox Name="textBoxHelp2" HorizontalAlignment="Center" FontSize="15" >You Can play this game in two modes, with your </TextBox>
-            <TextBox Name="textBoxHelp3" HorizontalAlignment="Center" FontSize="15" >computer or as multiplayers, choosing either of </TextBox>
-            <TextBox Name="textBoxHelp4" HorizontalAlignment="Center" FontSize="15" >options you've to log in using you credentials or </TextBox>
-            <TextBox Name="textBoxHelp5" HorizontalAlignment="Center" FontSize="15" >signup, if you choose multiplayer option than </TextBox>
-            <TextBox Name="textBoxHelp6" HorizontalAlignment="Center" FontSize="15" >both of the player have to login or sign up, then</TextBox>
-            <TextBox Name="textBoxHelp7" HorizontalAlignment="Center" FontSize="15" >your game starts and after a round you can view </TextBox>
-            <TextBox Name="textBoxHelp8" HorizontalAlignment="Center" FontSize="15" >your score and high achivers list either you can exit</TextBox>
-            <TextBox Name="textBoxHelp9" HorizontalAlignment="Center" FontSize="15" >too.The method of playing this game is you've to gain </TextBox>
-            <TextBox Name="textBoxHelp10" HorizontalAlignment="Center" FontSize="15" >3 continuous X or O whetevr you're playing with </TextBox>
+            <TextBox Name="textBoxHelp2" HorizontalAlignment="Center" FontSize="15" >here you find some information about the game.</TextBox>
+            <TextBox Name="textBoxHelp3" HorizontalAlignment="Center" FontSize="15" >1) Decide if you want to play with a friend or your PC.</TextBox>
+            <TextBox Name="textBoxHelp4" HorizontalAlignment="Center" FontSize="15" >2) Sign up and log in.</TextBox>
+            <TextBox Name="textBoxHelp5" HorizontalAlignment="Center" FontSize="15" >If you play with a friend,</TextBox>
+            <TextBox Name="textBoxHelp6" HorizontalAlignment="Center" FontSize="15" >both of you will have to log in.</TextBox>
+            <TextBox Name="textBoxHelp7" HorizontalAlignment="Center" FontSize="15" >3) Have fun!</TextBox>
+
 
             <Button Name="buttonBack" Click="buttonBack_Click" Margin="15 10" Width="100" Content="Back" FontFamily="Viner Hand ITC" ></Button>
 

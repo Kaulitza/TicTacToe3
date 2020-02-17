@@ -45,7 +45,7 @@ namespace TicTacToe
             {
                 try
                 {
-                    StreamReader read = new StreamReader(@"C:\Users\HP\Documents\Visual Studio 2015\Projects\TicTacToe\TicTacToe\users.txt");     //object to read text file with the name auntheticateUsers.text
+                    StreamReader read = new StreamReader(@"users.txt");     //object to read text file with the name auntheticateUsers.text
                     String line2 = "";
                     while (!login && (line = read.ReadLine()) != null)
                     {
@@ -104,7 +104,7 @@ namespace TicTacToe
             }
             else if (textBoxUsername.Text.Equals("Username") || textBoxPassword.Password.Equals("Password"))
             {
-                MessageBox.Show("Aunthetication Error");
+                MessageBox.Show("Authentication Error");
             }
         }
 
